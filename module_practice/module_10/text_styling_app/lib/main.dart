@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Text Styling',
+      title: 'Text Styling Flutter App',
       home: TextStylingPage(),
     );
   }
@@ -19,7 +19,7 @@ class TextStylingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Text Styling'),
+        title: Text('Test Styling App'),
       ),
       body: Center(
         child: Column(
@@ -29,11 +29,11 @@ class TextStylingPage extends StatelessWidget {
             Text(
               'Flutter Text Styling',
               style: TextStyle(
-                fontSize: 32.0,
+                fontSize: 30.0,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 8.0), // Spacing between title and subtitle
+            SizedBox(height: 6.0),
             // Subtitle
             Text(
               'Experiment with text styles',
@@ -42,7 +42,7 @@ class TextStylingPage extends StatelessWidget {
                 fontStyle: FontStyle.italic,
               ),
             ),
-            SizedBox(height: 20.0), // Spacing between subtitle and button
+            SizedBox(height: 10.0),
             // TextButton
             TextButton(
               onPressed: () {
@@ -54,6 +54,22 @@ class TextStylingPage extends StatelessWidget {
                 );
               },
               child: Text('Click Me'),
+            ),
+            SizedBox(height: 8.0), // Spacing between button and new line
+            // New Line of Text
+            RichText(
+              text: TextSpan(
+                children: <TextSpan>[
+                  TextSpan(
+                    text: 'Welcome to ',
+                    style: TextStyle(color: Colors.black, fontSize: 20.0),
+                  ),
+                  TextSpan(
+                    text: 'Flutter!',
+                    style: TextStyle(color: Colors.blue, fontSize: 20.0, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
