@@ -42,7 +42,6 @@ class TextStylingPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // Title
             Text(
               'Flutter Text Styling',
               style: TextStyle(
@@ -51,7 +50,6 @@ class TextStylingPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 6.0),
-            // Subtitle
             Text(
               'Experiment with text styles',
               style: TextStyle(
@@ -73,7 +71,6 @@ class TextStylingPage extends StatelessWidget {
               child: Text('Click Me'),
             ),
             SizedBox(height: 8.0), 
-            // New Line of Text
             RichText(
               text: TextSpan(
                 children: <TextSpan>[
