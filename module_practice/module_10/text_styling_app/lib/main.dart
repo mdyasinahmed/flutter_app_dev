@@ -55,7 +55,7 @@ class TextStylingPage extends StatelessWidget {
               },
               child: Text('Click Me'),
             ),
-            SizedBox(height: 8.0), // Spacing between button and new line
+            SizedBox(height: 8.0),
             // New Line of Text
             RichText(
               text: TextSpan(
