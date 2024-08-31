@@ -12,4 +12,4 @@ Here are screenshots showcasing the UI on different devices:
 
 - **Desktop Screen:**
 
-![Desktop Screen](project_screenshots/desktop.png.png)
+![Desktop Screen](project_screenshots/desktop_screen.png)
