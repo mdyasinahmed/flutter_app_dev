@@ -1,16 +1,15 @@
-# assignment_on_responsive_design
+# Assignment on Responsive Design
+Here are screenshots showcasing the UI on different devices:
 
-A new Flutter project.
+## Screenshots
+- **Mobile Screen:**
 
-## Getting Started
+![Mobile Screen](project_screenshots/mobile_screens.png)
 
-This project is a starting point for a Flutter application.
+- **Tablet Screen:**
 
-A few resources to get you started if this is your first Flutter project:
+![Tablet Screen](project_screenshots/tablet_screen.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Desktop Screen:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Desktop Screen](project_screenshots/desktop_screen.png)
