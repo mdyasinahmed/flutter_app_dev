@@ -34,6 +34,22 @@ class _MyBagPageState extends State<MyBagPage> {
       size: 'S',
       imagePath: 'assets/sports_dress.webp',
     ),
+    Item(
+      name: 'T-Shirt',
+      price: 9.99,
+      quantity: 1,
+      color: 'Black',
+      size: 'L',
+      imagePath: 'assets/t_shirt.webp',
+    ),
+    Item(
+      name: 'Drop Shoulder',
+      price: 14.99,
+      quantity: 1,
+      color: 'White',
+      size: 'M',
+      imagePath: 'assets/drop_shoulder.webp',
+    ),
   ];
 
   double get totalPrice {
