@@ -88,3 +88,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+  # image assets
+  assets:
+    - assets/t_shirt.webp
+    - assets/drop_shoulder.webp
+    - assets/sports_dress.webp
+
+
