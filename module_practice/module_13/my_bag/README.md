@@ -4,7 +4,7 @@ A Flutter one-page app for managing a shopping bag.
 
 ## Screenshots
 - **First Screen**
-  ![First Screen](assets/screenshots/first_screen.png)
+  ![First Screen](assets/screenshots/first_view.png)
   
 - **Dynamic Price and Quantity**
   ![Dynamic Price and Quantity](assets/screenshots/dynamic_price_and_quantity.png)
