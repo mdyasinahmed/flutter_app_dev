@@ -1,6 +1,11 @@
-# my_bag
+# My Bag
 
 A Flutter one-page app for managing a shopping bag.
+
+## Features
+- Dynamic price and quantity calculation
+- Color and size selection for items
+- Snackbar notification for actions
 
 ## Screenshots
 
