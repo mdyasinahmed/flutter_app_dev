@@ -2,15 +2,18 @@
 
 A Flutter one-page app for managing a shopping bag.
 
-## Getting Started
+## Screenshots
+- **First Screen**
+  ![First Screen](assets/screenshots/first_view.png)
+  
+- **Dynamic Price and Quantity**
+  ![Dynamic Price and Quantity](assets/screenshots/dynamic_price_and_quantity.png)
+  
+- **Color and Size Selection**
+  ![Color and Size Selection](assets/screenshots/color_and_size_selection.png)
+  
+- **Color Selection**
+  ![Color Selection](assets/screenshots/color_selection_options.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Size Selection**
+  ![Size Selection](assets/screenshots/size_selection_options.png)
