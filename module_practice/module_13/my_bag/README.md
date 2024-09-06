@@ -10,10 +10,10 @@ A Flutter one-page app for managing a shopping bag.
 ## Screenshots
 
 ### First Screen
-<img src="assets/screenshots/first_screen_view.png" alt="First Screen" width="300" height="620">
+<img src="module_practice/module_13/my_bag/assets/screenshots/color_and_size_selection.png" alt="First Screen" width="300" height="620">
 
 ### Dynamic Price and Quantity
-<img src="module_practice/module_13/my_bag/assets/screenshots/dynamic_price_quantity_view.png" alt="Dynamic Price and Quantity" width="300" height="620">
+<img src="assets/screenshots/dynamic_price_quantity_view.png" alt="Dynamic Price and Quantity" width="300" height="620">
 
 ### Color and Size Selection
 <img src="module_practice/module_13/my_bag/assets/screenshots/color_size_selection_view.png" alt="Color and Size Selection" width="300" height="620">
