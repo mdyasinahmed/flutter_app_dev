@@ -34,22 +34,6 @@ class _MyBagPageState extends State<MyBagPage> {
       size: 'S',
       imagePath: 'assets/sports_dress.webp',
     ),
-    Item(
-      name: 'T-Shirt',
-      price: 9.99,
-      quantity: 1,
-      color: 'Black',
-      size: 'L',
-      imagePath: 'assets/t_shirt.webp',
-    ),
-    Item(
-      name: 'Drop Shoulder',
-      price: 14.99,
-      quantity: 1,
-      color: 'White',
-      size: 'M',
-      imagePath: 'assets/drop_shoulder.webp',
-    ),
   ];
 
   double get totalPrice {
@@ -136,7 +120,12 @@ class _MyBagPageState extends State<MyBagPage> {
             ),
             ElevatedButton(
               onPressed: () {
-                // Handle checkout action
+                // Displaying the Snackbar
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text('Successfully Added to the Order! \nConfirm Your Order NOW!.'),
+                  ),
+                );
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.red,
