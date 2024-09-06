@@ -3,17 +3,21 @@
 A Flutter one-page app for managing a shopping bag.
 
 ## Screenshots
-- **First Screen**
-  ![First Screen](assets/screenshots/first_view.png)
-  
-- **Dynamic Price and Quantity**
-  ![Dynamic Price and Quantity](assets/screenshots/dynamic_price_and_quantity.png)
-  
-- **Color and Size Selection**
-  ![Color and Size Selection](assets/screenshots/color_and_size_selection.png)
-  
-- **Color Selection**
-  ![Color Selection](assets/screenshots/color_selection_options.png)
 
-- **Size Selection**
-  ![Size Selection](assets/screenshots/size_selection_options.png)
+### First Screen
+<img src="assets/images/first_screen_view.png" alt="First Screen" width="300" height="620">
+
+### Dynamic Price and Quantity
+<img src="assets/images/dynamic_price_quantity_view.png" alt="Dynamic Price and Quantity" width="300" height="620">
+
+### Color and Size Selection
+<img src="assets/images/color_size_selection_view.png" alt="Color and Size Selection" width="300" height="620">
+
+### Color Selection Options
+<img src="assets/images/color_selection_view.png" alt="Color Selection Options" width="300" height="620">
+
+### Size Selection Options
+<img src="assets/images/size_selection_view.png" alt="Size Selection Options" width="300" height="620">
+
+### Showing Snackbar
+<img src="assets/images/snackbar_view.png" alt="Showing Snackbar" width="300" height="620">
