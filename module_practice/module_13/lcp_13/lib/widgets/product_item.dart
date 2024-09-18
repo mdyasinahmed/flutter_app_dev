@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lcp_13/screens/update_product.dart';
 
 class ProductItem extends StatelessWidget {
   const ProductItem({
@@ -21,14 +22,27 @@ class ProductItem extends StatelessWidget {
             ButtonBar(
               children: [
                 TextButton.icon(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context){
+                        return const UpdateNewProductScreen();
+                      }),
+                    );
+                  },
                   icon: Icon(Icons.edit),
                   label: const Text('Edit'),
                 ),
                 TextButton.icon(
                   onPressed: () {},
-                  icon: Icon(Icons.delete_outline),
-                  label: const Text('Delete'),
+                  icon: Icon(
+                    Icons.delete_outline,
+                    color: Colors.red,
+                  ),
+                  label: const Text(
+                    'Delete',
+                    style: TextStyle(color: Colors.red),
+                  ),
                 ),
               ],
             )
