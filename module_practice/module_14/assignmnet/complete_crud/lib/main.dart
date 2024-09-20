@@ -1,4 +1,3 @@
-import 'package:complete_crud/screens/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {
