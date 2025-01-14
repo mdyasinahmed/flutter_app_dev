@@ -1,4 +1,4 @@
-import 'package:basic_app/screens/join_screen.dart';
+import 'package:the_tutor/screens/join_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
